@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- 	<meta name="viewport" content="width=width=device-width, initial-scale=1.0">
+ -->	<meta name="viewport" content="width=1400px">
+	<title>NutriSite</title>
+
+	<link rel="stylesheet" href="css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Spartan:wght@500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<style>
+	html,
+	body {
+		position: relative;
+		height: 100%;
+	}
+
+	body {
+		margin: 0;
+		padding: 0;
+	}
+
+	.swiper {
+		width: 100%;
+		height: 100%;
+	}
+
+	.swiper-slide {
+		text-align: center;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		align-items: center;
+	}
+
+	.swiper-slide img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+</style>
+
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<img class="header__image1" src="img/header/leftFrame.svg" alt="">
+			<div class="header__wrapperimageright">
+				<img class="header__image2" src="img/header/1rightFrame.svg" alt="">
+				<img class="header__image3" src="img/header/2rightFrame.svg" alt="">
+			</div>
+			<div class="header__container container">
+				<a href="#" class="header__logo">
+					<img src="img/header/Logo.svg" alt="">
+					<p><span>Nutri</span>Site</p>
+				</a>
+				<nav class="header__menu menu">
+					<ul class="menu__list">
+						<li>
+							<a href="#" class="header__link">Home</a>
+						</li>
+						<li>
+							<a href="#" class="header__link">Menu</a>
+						</li>
+						<li>
+							<a href="#" class="header__link">About</a>
+						</li>
+						<li>
+							<a href="#" class="header__link">Contact</a>
+						</li>
+						<li>
+							<a href="#" class="header__link">Reviews</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div class="page">
+			<section class="naturalfood">
+				<div class="naturalfood__container container">
+					<div class="naturalfood__row">
+						<div class="naturalfood__body">
+							<div class="naturalfood__title general__title">
+								Eat Healthy And <br><span>Natural Food</span>
+							</div>
+							<div class="naturalfood__text general__text">
+								It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout the generated Lorem Ipsum is therefore always free from repetition.
+							</div>
+							<a href="" class="naturalfood__btn general__btn">
+								<span>Discover Food</span>
+							</a>
+						</div>
+						<div class="naturalfood__main-image">
+							<img src="img/naturalfood/imageScreenshot_1.png" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="delicious">
+				<div class="delicious__backimage1">
+					<img src="img/delicious/1back.png" alt="">
+				</div>
+				<div class="delicious__backimage2">
+					<img src="img/delicious/2back.png" alt="">
+				</div>
+				<div class="delicious__backimage3">
+					<img src="img/delicious/3back.png" alt="">
+				</div>
+				<div class="delicious__container container">
+					<div class="delicious__row">
+						<div class="delicious__column">
+							<div class="delicious__title general__title">
+								<span>Fresh Healthy</span> Delicious Foods
+							</div>
+							<div class="delicious__subtitle general__subtitle">
+								We Made Fresh and Healthy Foods...
+							</div>
+							<div class="delicious__image ibg">
+								<img src="img/delicious/Image.png" alt="">
+							</div>
+						</div>
+						<div class="delicious__food-swiper" style="flex: 1 1 60%; position: relative;">
+							<div class="swiper-pagination" style="top: 50px;left: 30px;"></div>
+							<div class="btns">
+								<a href="#" class="swiper-btn-prev">
+									<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g filter="url(#filter0_i_60_2976)">
+											<circle r="23.75" transform="matrix(-1 0 0 1 25 25)" stroke="url(#paint0_linear_60_2976)"
+												stroke-width="2.5" />
+										</g>
+										<path d="M28.625 17.6875L20.8125 25.5L28.625 33.3125" stroke="black" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+										<defs>
+											<filter id="filter0_i_60_2976" x="0" y="0" width="50" height="50" filterUnits="userSpaceOnUse"
+												color-interpolation-filters="sRGB">
+												<feFlood flood-opacity="0" result="BackgroundImageFix" />
+												<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+												<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+													result="hardAlpha" />
+												<feOffset />
+												<feGaussianBlur stdDeviation="2" />
+												<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+												<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+												<feBlend mode="normal" in2="shape" result="effect1_innerShadow_60_2976" />
+											</filter>
+											<linearGradient id="paint0_linear_60_2976" x1="28.6585" y1="-1.70946e-08" x2="28.122" y2="49.9946"
+												gradientUnits="userSpaceOnUse">
+												<stop stop-color="#98D67D" />
+												<stop offset="1" stop-color="#569F36" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</a>
+							
+								<a href="#" class="swiper-btn-next">
+									<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<g filter="url(#filter0_i_60_2976)">
+											<circle r="23.75" transform="matrix(-1 0 0 1 25 25)" stroke="url(#paint0_linear_60_2976)"
+												stroke-width="2.5" />
+										</g>
+										<path d="M22.375 17.6875L30.1875 25.5L22.375 33.3125" stroke="black" stroke-width="2" stroke-linecap="round"
+											stroke-linejoin="round" />
+										<defs>
+											<filter id="filter0_i_60_2976" x="0" y="0" width="50" height="50" filterUnits="userSpaceOnUse"
+												color-interpolation-filters="sRGB">
+												<feFlood flood-opacity="0" result="BackgroundImageFix" />
+												<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+												<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+													result="hardAlpha" />
+												<feOffset />
+												<feGaussianBlur stdDeviation="2" />
+												<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+												<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+												<feBlend mode="normal" in2="shape" result="effect1_innerShadow_60_2976" />
+											</filter>
+											<linearGradient id="paint0_linear_60_2976" x1="28.6585" y1="-1.70946e-08" x2="28.122" y2="49.9946"
+												gradientUnits="userSpaceOnUse">
+												<stop stop-color="#98D67D" />
+												<stop offset="1" stop-color="#569F36" />
+											</linearGradient>
+										</defs>
+									</svg>
+								</a>
+							</div>
+							<div class="swiper mySwiper" style="overflow: visible;">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="delicious__items">
+											<div class="delicious__row">
+												<div class="delicious__item-wrapper">
+													<div class="delicious__item item__delicious1">
+														<a href="#" class="delicious__item-image">
+															<img src="img/delicious/1.svg" alt="">
+														</a>
+														<div class="delicious__item-body">
+															<div class="delicious__item-text">
+																<a href="#">
+																	Black Souce Pasta
+																</a>
+																<p>
+																	Mix Vegetabale Pasta...
+																</p>
+															</div>
+															<a href="#" class="delicious__item-arrow">
+																<img src="img/delicious/arrow.svg" alt="">
+															</a>
+														</div>
+													</div>
+												</div>
+												<div class="delicious__item-wrapper">
+													<div class="delicious__item item__delicious2">
+														<a href="#" class="delicious__item-image">
+															<img src="img/delicious/1.svg" alt="">
+														</a>
+														<div class="delicious__item-body">
+															<div class="delicious__item-text">
+																<a href="#">
+																	Black Souce Pasta
+																</a>
+																<p>
+																	Mix Vegetabale Pasta...
+																</p>
+															</div>
+															<a href="#" class="delicious__item-arrow">
+																<img src="img/delicious/arrow.svg" alt="">
+															</a>
+														</div>
+													</div>
+												</div>
+												<div class="delicious__item-wrapper">
+													<div class="delicious__item item__delicious3">
+														<a href="#" class="delicious__item-image">
+															<img src="img/delicious/1.svg" alt="">
+														</a>
+														<div class="delicious__item-body">
+															<div class="delicious__item-text">
+																<a href="#">
+																	Black Souce Pasta
+																</a>
+																<p>
+																	Mix Vegetabale Pasta...
+																</p>
+															</div>
+															<a href="#" class="delicious__item-arrow">
+																<img src="img/delicious/arrow.svg" alt="">
+															</a>
+														</div>
+													</div>
+												</div>
+												<div class="delicious__item-wrapper">
+													<div class="delicious__item item__delicious4">
+														<a href="#" class="delicious__item-image">
+															<img src="img/delicious/1.svg" alt="">
+														</a>
+														<div class="delicious__item-body">
+															<div class="delicious__item-text">
+																<a href="#">
+																	Black Souce Pasta
+																</a>
+																<p>
+																	Mix Vegetabale Pasta...
+																</p>
+															</div>
+															<a href="#" class="delicious__item-arrow">
+																<img src="img/delicious/arrow.svg" alt="">
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="swiper-slide">
+										<div class="delicious__items">
+											<div class="delicious__row">
+												<div class="delicious__item-wrapper">
+													<div class="delicious__item item__delicious1">
+														<a href="#" class="delicious__item-image">
+															<img src="img/delicious/1.svg" alt="">
+														</a>
+														<div class="delicious__item-body">
+															<div class="delicious__item-text">
+																<a href="#">
+																	Black Souce Pasta
+																</a>
+																<p>
+																	Mix Vegetabale Pasta...
+																</p>
+															</div>
+															<a href="#" class="delicious__item-arrow">
+																<img src="img/delicious/arrow.svg" alt="">
+															</a>
+														</div>
+													</div>
+												</div>
+												<div class="delicious__item-wrapper">
+													<div class="delicious__item item__delicious2">
+														<a href="#" class="delicious__item-image">
+															<img src="img/delicious/1.svg" alt="">
+														</a>
+														<div class="delicious__item-body">
+															<div class="delicious__item-text">
+																<a href="#">
+																	Black Souce Pasta
+																</a>
+																<p>
+																	Mix Vegetabale Pasta...
+																</p>
+															</div>
+															<a href="#" class="delicious__item-arrow">
+																<img src="img/delicious/arrow.svg" alt="">
+															</a>
+														</div>
+													</div>
+												</div>
+												<div class="delicious__item-wrapper">
+													<div class="delicious__item item__delicious3">
+														<a href="#" class="delicious__item-image">
+															<img src="img/delicious/1.svg" alt="">
+														</a>
+														<div class="delicious__item-body">
+															<div class="delicious__item-text">
+																<a href="#">
+																	Black Souce Pasta
+																</a>
+																<p>
+																	Mix Vegetabale Pasta...
+																</p>
+															</div>
+															<a href="#" class="delicious__item-arrow">
+																<img src="img/delicious/arrow.svg" alt="">
+															</a>
+														</div>
+													</div>
+												</div>
+												<div class="delicious__item-wrapper">
+													<div class="delicious__item item__delicious4">
+														<a href="#" class="delicious__item-image">
+															<img src="img/delicious/1.svg" alt="">
+														</a>
+														<div class="delicious__item-body">
+															<div class="delicious__item-text">
+																<a href="#">
+																	Black Souce Pasta
+																</a>
+																<p>
+																	Mix Vegetabale Pasta...
+																</p>
+															</div>
+															<a href="#" class="delicious__item-arrow">
+																<img src="img/delicious/arrow.svg" alt="">
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="delicious__items">
+											<div class="delicious__row">
+												<div class="delicious__item-wrapper">
+													<div class="delicious__item item__delicious1">
+														<a href="#" class="delicious__item-image">
+															<img src="img/delicious/1.svg" alt="">
+														</a>
+														<div class="delicious__item-body">
+															<div class="delicious__item-text">
+																<a href="#">
+																	Black Souce Pasta
+																</a>
+																<p>
+																	Mix Vegetabale Pasta...
+																</p>
+															</div>
+															<a href="#" class="delicious__item-arrow">
+																<img src="img/delicious/arrow.svg" alt="">
+															</a>
+														</div>
+													</div>
+												</div>
+												<div class="delicious__item-wrapper">
+													<div class="delicious__item item__delicious2">
+														<a href="#" class="delicious__item-image">
+															<img src="img/delicious/1.svg" alt="">
+														</a>
+														<div class="delicious__item-body">
+															<div class="delicious__item-text">
+																<a href="#">
+																	Black Souce Pasta
+																</a>
+																<p>
+																	Mix Vegetabale Pasta...
+																</p>
+															</div>
+															<a href="#" class="delicious__item-arrow">
+																<img src="img/delicious/arrow.svg" alt="">
+															</a>
+														</div>
+													</div>
+												</div>
+												<div class="delicious__item-wrapper">
+													<div class="delicious__item item__delicious3">
+														<a href="#" class="delicious__item-image">
+															<img src="img/delicious/1.svg" alt="">
+														</a>
+														<div class="delicious__item-body">
+															<div class="delicious__item-text">
+																<a href="#">
+																	Black Souce Pasta
+																</a>
+																<p>
+																	Mix Vegetabale Pasta...
+																</p>
+															</div>
+															<a href="#" class="delicious__item-arrow">
+																<img src="img/delicious/arrow.svg" alt="">
+															</a>
+														</div>
+													</div>
+												</div>
+												<div class="delicious__item-wrapper">
+													<div class="delicious__item item__delicious4">
+														<a href="#" class="delicious__item-image">
+															<img src="img/delicious/1.svg" alt="">
+														</a>
+														<div class="delicious__item-body">
+															<div class="delicious__item-text">
+																<a href="#">
+																	Black Souce Pasta
+																</a>
+																<p>
+																	Mix Vegetabale Pasta...
+																</p>
+															</div>
+															<a href="#" class="delicious__item-arrow">
+																<img src="img/delicious/arrow.svg" alt="">
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+
+
+										
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="ingridiants">
+				<div class="ingridiants__container container">
+					<div class="ingridiants__body">
+						<div class="ingridiants__title general__title">
+							<span>Type of Ingridiants in</span> Nutrition Diet
+						</div>
+						<div class="ingridiants__subtitle general__subtitle">
+							Good food ends with good talk...
+						</div>
+						<div class="ingridiants__text general__text">
+							<p>
+								It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout the generated Lorem Ipsum is therefore always free from repetition.
+							</p>
+							<p>
+								It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages...
+							</p>
+						</div>
+						<a href="" class="ingridiants__btn general__btn">
+							<span>See Diet Plan</span>
+						</a>
+						<a href="" class="ingridiants__second-btn">
+							<span>Learn More</span>
+						</a>
+					</div>
+					<a href="#" class="ingridiants__image">
+						<img src="img/3ingridiants/Image.svg" alt="">
+					</a>
+				</div>
+			</section>
+			<section class="benefits">
+				<div class="benefits__container container">
+					<div class="benefits__title general__title">
+						<span>Benefits of</span> Nutrition
+					</div>
+					<div class="benefits__subtitle general__subtitle">
+						Eat Healthy, Be Nutrition Wealthy
+					</div>
+					<div class="benefits__body">
+						<div class="benefits__body-image">
+							<img src="img/4benefits/image.png" alt="Heart">
+						</div>
+						<div class="benefits__body-item item-benefits item1">
+							<a href="" class="item-benefits__image">
+								<img src="img/4benefits/Новая папка/1.svg" alt="icon">
+							</a>
+							<div class="item-benefits__title">
+								Heart Health
+							</div>
+							<div class="item-benefits__text">
+								There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+							</div>
+							<a href="" class="item-benefits__image-arrow">
+								<img src="img/4benefits/arrow.svg" alt="arrow">
+							</a>
+						</div>
+						<div class="benefits__body-item item-benefits item2">
+							<a href="" class="item-benefits__image">
+								<img src="img/4benefits/Новая папка/2.svg" alt="icon">
+							</a>
+							<div class="item-benefits__title">
+								Beauty
+							</div>
+							<div class="item-benefits__text">
+								It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, but the majority
+								have suffered alteration in some form, by injected humour.
+							</div>
+							<a href="" class="item-benefits__image-arrow">
+								<img src="img/4benefits/arrow.svg" alt="arrow">
+							</a>
+						</div>
+						<div class="benefits__body-item item-benefits item3">
+							<a href="" class="item-benefits__image">
+								<img src="img/4benefits/Новая папка/3.svg" alt="icon">
+							</a>
+							<div class="item-benefits__title">
+								Longevity
+							</div>
+							<div class="item-benefits__text">
+								There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+								by injected humour.
+							</div>
+							<a href="" class="item-benefits__image-arrow">
+								<img src="img/4benefits/arrow.svg" alt="arrow">
+							</a>
+						</div>
+						<div class="benefits__body-item item-benefits item4">
+							<a href="" class="item-benefits__image">
+								<img src="img/4benefits/Новая папка/4.svg" alt="icon">
+							</a>
+							<div class="item-benefits__title">
+								Immunity
+							</div>
+							<div class="item-benefits__text">
+								Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words
+								which don't look even slightly believable.
+							</div>
+							<a href="" class="item-benefits__image-arrow">
+								<img src="img/4benefits/arrow.svg" alt="arrow">
+							</a>
+						</div>
+						<div class="benefits__body-item item-benefits item5">
+							<a href="" class="item-benefits__image">
+								<img src="img/4benefits/Новая папка/5.svg" alt="icon">
+							</a>
+							<div class="item-benefits__title">
+								Cancer Prevention
+							</div>
+							<div class="item-benefits__text">
+								There are many variations of passages of Lorem Ipsum available, or randomised words which don't look even slightly
+								believable.
+							</div>
+							<a href="" class="item-benefits__image-arrow">
+								<img src="img/4benefits/arrow.svg" alt="arrow">
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="nutritions">
+				<div class="nutritions__container container">
+					<div class="nutritions__body">
+						<div class="nutritions__column">
+							<div class="nutritions__title general__title">
+								<span>Your Personal</span> Nutritionist
+							</div>
+							<div class="nutritions__subtitle general__subtitle">
+								Nutrition For a Healthy Body...
+							</div>
+							<ul class="nutritions__list">
+								<li>
+									<a href="" class="nutritions__link">
+										It is a long established fact that a reader will be distracted.
+									</a>
+								</li>
+								<li>
+									<a href="" class="nutritions__link">
+										Nutrition is cool, if you don’t have enough of it, you’re a fool.
+									</a>
+								</li>
+								<li>
+									<a href="" class="nutritions__link">
+										Always been wishing for healthy nutrition.
+									</a>
+								</li>
+								<li>
+									<a href="" class="nutritions__link">
+										Nutrition is needed to prevent sickness.
+									</a>
+								</li>
+								<li>
+									<a href="" class="nutritions__link">
+										Good nutrition will have you feeling your best all the time!
+									</a>
+								</li>
+								<li>
+									<a href="" class="nutritions__link">
+										Everything your body needs, nothing it doesn’t.
+									</a>
+								</li>
+							</ul>
+							<a href="" class="nutritions__btn general__btn">
+								<span>Get Start</span>
+							</a>
+						</div>
+						<div class="nutritions__image">
+							<img src="img/5nutritions/image.png" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="information">
+				<div class="information__body">
+					<div class="information__column">
+						<div class="information__row">
+							<ul class="information__row-list">
+								<li>
+									<a class="information__row-link" href="">
+										Home
+									</a>
+								</li>
+								<li>
+									<a class="information__row-link" href="">
+										Menu
+									</a>
+								</li>
+								<li>
+									<a class="information__row-link" href="">
+										About
+									</a>
+								</li>
+								<li>
+									<a class="information__row-link" href="">
+										Contact
+									</a>
+								</li>
+								<li>
+									<a class="information__row-link" href="">
+										Review
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="information__email">
+							www.nutrisite.com
+						</div>
+						<div class="information__icons">
+							<img src="img/6information/ic_instagram.svg" alt="">
+							<img src="img/6information/ic_facebook.svg" alt="">
+							<img src="img/6information/ic_twitter.svg" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer style="text-align: center; padding: 20px 0 30px 0;" class="footer">
+			<span>2021 copyright. All right reserved.</span>
+		</footer>
+	</div>
+
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+			direction: "vertical",
+			slidesPerView: 1,
+			spaceBetween: 30,
+			mousewheel: true,
+			slidesPerView: 1,
+			spaceBetween: 150,
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+			},
+			navigation: {
+				nextEl: ".swiper-btn-next",
+				prevEl: ".swiper-btn-prev",
+			},
+		});
+	</script>
+
+</body>
+</html>
+
